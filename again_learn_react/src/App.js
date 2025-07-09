@@ -21,8 +21,6 @@ class App extends Component {
    let datafromweb= JSON.parse(localStorage.getItem("cart"))
    console.log(datafromweb);
     let user ="pradeep";
-    
-    
     return (
       <div className="App">
 
@@ -39,7 +37,7 @@ class App extends Component {
           <Route path ="/updateform/:id" element ={<UpdateForm />} />
           <Route path ="/wishlist" element ={<Wishlist />} />
         
-          <Route path = "/cart" element ={<Card/>} >
+          <Route path = "/cart" element ={<Cartlis/>} >
             <Route path = "list" element = {<Cartlis />} />
             <Route path = "details" element ={<Cartdetails />} />
           </Route>

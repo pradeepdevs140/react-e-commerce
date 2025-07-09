@@ -5,7 +5,7 @@ const CartSlice = createSlice({
     initialState:datafromweb,
     reducers : {
         additem (state,action){
-            alert("Item add successfully✅  ")
+            alert("Item add successfully  ")
             localStorage.setItem("cart", JSON.stringify([...state]))
             state.push(action.payload)
             console.log(action)

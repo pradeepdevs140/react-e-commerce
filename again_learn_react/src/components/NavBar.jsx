@@ -36,7 +36,7 @@ function NavBar() {
               placeholder="Search"
               className="me-2"
               aria-label="Search"
-            />
+             onChange ={ (e)=>{console.log(e.target.value)}}/>
             <Button variant="outline-success" >Search</Button>
           </Form>
         </Navbar.Collapse>

@@ -20,7 +20,6 @@ function UseFetch(URL){
       }
     };
     fetchAPI();
-
   },[]
   )
 

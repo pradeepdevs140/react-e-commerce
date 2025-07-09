@@ -13,7 +13,7 @@ let Newproducts = () => {
         padding:"20px",
     }
   let [newproduct ,setnewproduct]= useState({
-     
+  
     "title": "",
     "price": 109.95,
     "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
